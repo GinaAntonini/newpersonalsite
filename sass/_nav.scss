@@ -1,0 +1,32 @@
+.title {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ginanavbar {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    list-style:none;
+    text-align:center;
+    padding: 0;
+}
+
+.ginanavbar li{
+    display:inline;
+}
+.ginanavbar a{
+    display:inline-block;
+    padding:9px;
+    text-decoration: none;
+}
+
+.ginanavbar a:hover{
+    color: grey;
+}
+
+.ginanavbar a:active{
+    text-decoration: underline;
+}
+
