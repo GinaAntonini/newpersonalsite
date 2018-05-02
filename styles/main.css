@@ -1,13 +1,16 @@
 body {
-  background-color: black;
-  color: white; }
-
-body {
-  font-family: 'Actor'; }
+  background-color: black; }
 
 .title {
-  width: 50%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+  font-size: 60px;
+  font-family: 'Julius Sans One', sans-serif;
+  background: url(http://www.modafinilsale.com/data/out/552/233515629-white-flower-wallpaper.jpg) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 .ginanavbar {
   width: 50%;
@@ -16,7 +19,10 @@ body {
   margin-bottom: 2%;
   list-style: none;
   text-align: center;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Julius Sans One', sans-serif;
+  color: #cccccc;
+  font-size: 20px; }
 
 .ginanavbar li {
   display: inline; }
@@ -24,10 +30,9 @@ body {
 .ginanavbar a {
   display: inline-block;
   padding: 9px;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #cccccc; }
 
 .ginanavbar a:hover {
-  color: grey; }
-
-.ginanavbar a:active {
-  text-decoration: underline; }
+  color: grey;
+  transition: all 0.9s ease 0s; }
